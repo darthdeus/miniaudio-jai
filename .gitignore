@@ -1,0 +1,8 @@
+*.dll
+*.lib
+.build
+*.pdb
+*.exe
+
+miniaudio.c
+libminiaudio.so
