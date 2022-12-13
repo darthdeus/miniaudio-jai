@@ -1,6 +1,10 @@
-.PHONY: generate examples build-miniaudio
+.PHONY: default generate examples build-miniaudio
 
-default: generate
+default: examples
+
+examples:
+	jai examples/simple_playback.jai
+	./examples/simple_playback
 
 generate:
 	cp miniaudio/miniaudio.h miniaudio.c
